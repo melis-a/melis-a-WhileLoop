@@ -21,7 +21,11 @@ public class WhileLoopTest {
         int expected = 3;
         int actual = wl.whileExample(input);
         Assert.assertEquals(expected, actual);
-    }
+    
+    } 
+    
+        
+
     /**
      * A while loop summing all numbers between 0 and 5 exclusive should result in an expected value of 10.
      * 0+1+2+3+4 = 10
@@ -44,6 +48,8 @@ public class WhileLoopTest {
         int actual = wl.whileExample(input);
         Assert.assertEquals(expected, actual);
     }
+    
+    
     /**
      * A while loop summing all numbers between 0 and 0 exclusive should result in an expected value of 0.
      */
